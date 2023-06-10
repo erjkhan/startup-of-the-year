@@ -1,0 +1,97 @@
+body , html
+{
+	
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+header{
+	padding-top: 80px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-size: 3rem;
+	color: #e9f4ff;
+
+}
+hr
+{
+	margin: 20px auto;
+	color: #F05F44;
+	border: 3px solid #ffffff;
+	max-width: 65px;
+	opacity: 0.5;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px ;
+	text-transform: uppercase;
+
+}
+	
+.btn-primary{
+	background-color: #2267b199;
+	border-color: #2267b199;
+
+
+}
+.btn-primary:hover
+{
+	background-color: #077fff;
+	border-color: #077fff;
+	border-width: 4px;
+}
+.btn-xl{
+padding: 1rem 2rem;
+
+}
+.buffer{
+height : 10rem;
+}
+.btn-sm
+{
+    font-family: sans-serif;
+    border-radius: 300px;
+    
+    font-size: 10px;
+}
+.cards{
+	
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.cardcontent{
+
+width: 270px;
+min-height: 240px;
+max-width: 270px;
+max-height: 340px;
+    background-color: white;
+    border-width: 2px;
+    border-radius: 50px;
+    box-shadow: 70px gray;
+    padding: 4px ;
+  margin: 20px;
+
+}
+    .cardimg
+    {
+    	margin: 10px;
+    width: 100px;
+    height: 70px;
+
+}
+.carddetail{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: black;
+    align-content: center;
+
+}
+
